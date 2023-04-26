@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.name{
+    font-size: 18px;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #824db3;
+}
+.borda{
+    border: 2px solid;
+    border-radius: 50px;
+    padding: 20px 20px 20px 20px;
+}
+.input{
+    border-radius: 2px;
+    padding: 2px 2px 2px 2px;
+    background-color: #d3b7eb;
+}
+#btsubmit{
+    height: 20px;
+    width: 52px;
+    background-color: #913163;
+}
+#btsubmit:hover{
+    background-color: #91313e;
+}
